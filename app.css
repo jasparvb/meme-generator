@@ -1,0 +1,131 @@
+html {
+    font-size: 30px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+body .header {
+    background-color: #e6c7ad;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 0 100px 0;
+}
+
+.main {
+    margin: 1rem 2rem;
+}
+
+section {
+    text-align: center;
+}
+
+h1 {
+    font-size: 4rem;
+    font-family: 'Anton', Arial, Helvetica, sans-serif;
+    margin: 4rem 0 0 0;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+form {
+    width: 100%;
+    padding: 10px 50px 50px;
+}
+
+form input {
+    width: 50%;
+    font-size: 1rem;
+    border-radius: 4px;
+    border: none;
+    padding: 3px 8px;
+}
+
+.input {
+    padding-bottom: 20px;
+}
+
+button {
+    font-size: .7rem;
+    font-family: 'Anton', Arial, Helvetica, sans-serif;
+    border-radius: 0.2rem;
+    padding: 0.4rem 1.2rem;
+    cursor: pointer;
+    transition: all 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    font-weight: 700;
+    border: 1px solid #b1b1b1;
+    color: #323232;
+    text-transform: uppercase;
+}
+
+button:focus {
+    border-radius: 0.2rem;
+    outline: none;
+}
+
+button:hover {
+    background: #e7e7e7;
+}
+
+#newMemes button {
+    margin: 8px 20px;
+    font-size: .45rem;
+    padding: 0.2rem .3rem;
+    position: absolute;
+    bottom: -45px;
+    left: -20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: none;
+    border-width: 1px;
+    border-radius: 3px;
+}
+
+#newMemes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    list-style: none;
+}
+
+#newMemes p {
+    font-size: 1.7rem;
+    line-height: 1.7rem;
+    font-family: 'Anton';
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 95%;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+
+.text-top {
+    top: -35px;
+}
+
+.text-bottom {
+    bottom: -30px;
+}
+
+#newMemes li {
+    position: relative;
+    margin: 10px 50px 90px;
+    width: 520px;
+}
+
+#newMemes img {
+    width: 100%;
+}
+
+.container {
+    position: relative;
+}

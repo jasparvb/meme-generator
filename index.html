@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Dream Meme</title>
+        <link rel="stylesheet" href="app.css" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="header">
+            <section id="intro">
+                <h1>DreamMeme</h1>
+                <p>Make your own custom meme by filling out the fields below</p>
+            </section>
+            <form>
+              <div class="input">
+                <label for="newMemePic">Link to the image to use:</label>
+                <input type="text" id="newMemePic">
+              </div>
+              <div class="input">
+                <label for="newMemeTop">Text for top of meme:</label>
+                <input type="text" id="newMemeTop">
+              </div>
+              <div class="input">
+                <label for="newMemeBottom">Text for bottom of meme:</label>
+                <input type="text" id="newMemeBottom">
+              </div>
+              <button>Create Meme</button>
+            </form>
+        </div>
+        <div class="main">
+          <ul id="newMemes"></ul>
+        </div>
+        <script type="text/javascript" src="app.js"></script>
+</body>
+</html>
